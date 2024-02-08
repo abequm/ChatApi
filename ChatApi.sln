@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chat.Api", "Chat.Api\Chat.Api.csproj", "{9845E780-CF8C-470B-B0EC-F65CD73C31BA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chat.Database", "Chat.Database", "{8E9CEF46-1C90-4909-B278-AE08A7FC0B83}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chat.Database.MsSql", "Chat.Database.MsSql\Chat.Database.MsSql.csproj", "{7319A2B7-9C67-43DF-91C2-92C3E3255A36}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9845E780-CF8C-470B-B0EC-F65CD73C31BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9845E780-CF8C-470B-B0EC-F65CD73C31BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9845E780-CF8C-470B-B0EC-F65CD73C31BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9845E780-CF8C-470B-B0EC-F65CD73C31BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7319A2B7-9C67-43DF-91C2-92C3E3255A36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7319A2B7-9C67-43DF-91C2-92C3E3255A36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7319A2B7-9C67-43DF-91C2-92C3E3255A36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7319A2B7-9C67-43DF-91C2-92C3E3255A36}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7319A2B7-9C67-43DF-91C2-92C3E3255A36} = {8E9CEF46-1C90-4909-B278-AE08A7FC0B83}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EC7C47B5-B434-4AC4-AA5B-A1949FE573F4}
+	EndGlobalSection
+EndGlobal
